@@ -1,0 +1,57 @@
+[
+  {
+    "V34369": {
+      "id": "V34369",
+      "start": 2,
+      "type": "SA_TELL",
+      "end": 15,
+      "indicator": "SPEECHACT",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V34255",
+        "LEX": "WANT"
+      }
+    },
+    "V34255": {
+      "id": "V34255",
+      "start": 2,
+      "type": "WANT",
+      "end": 15,
+      "indicator": "F",
+      "word": "WANT",
+      "roles": {
+        "TENSE": "PRES",
+        "LEX": "WANT",
+        "FORMAL": "#V34288",
+        "EXPERIENCER": "#V34212"
+      }
+    },
+    "V34288": {
+      "id": "V34288",
+      "start": 9,
+      "type": "CONSUME",
+      "end": 15,
+      "indicator": "F",
+      "word": "EAT",
+      "roles": {
+        "LEX": "EAT",
+        "VFORM": "BASE",
+        "AGENT": "#V34212"
+      }
+    },
+    "V34212": {
+      "id": "V34212",
+      "start": 2,
+      "type": "PERSON",
+      "end": 4,
+      "indicator": "PRO",
+      "word": "I",
+      "roles": {
+        "LEX": "I",
+        "COREF": "USER",
+        "PROFORM": "I"
+      }
+    },
+    "root": "V34369"
+  }
+]

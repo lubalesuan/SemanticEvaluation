@@ -1,8 +1,8 @@
-pattern = {
-  "root": {"root": "WANT"}, 
+{
+  "root": "WANT", 
   "experiencer": {"root": "PERSON"},
   "formal": {
     "root": "CONSUME",
-    "agent": "PERSON"
+    "agent": {"root": "PERSON"}
   }
 }
