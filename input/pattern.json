@@ -1,0 +1,8 @@
+pattern = {
+  "root": {"root": "WANT"}, 
+  "experiencer": {"root": "PERSON"},
+  "formal": {
+    "root": "CONSUME",
+    "agent": "PERSON"
+  }
+}
