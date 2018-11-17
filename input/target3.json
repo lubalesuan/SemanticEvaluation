@@ -1,0 +1,57 @@
+[
+  {
+    "V1183730": {
+      "type": "WANT",
+      "id": "V1183730",
+      "word": "WANT",
+      "end": 17,
+      "start": 2,
+      "roles": {
+        "FORMAL": "#V1183763",
+        "EXPERIENCER": "#V1183687",
+        "LEX": "WANT",
+        "TENSE": "PRES"
+      },
+      "indicator": "F"
+    },
+    "V1183763": {
+      "type": "CONSUME",
+      "id": "V1183763",
+      "word": "DRINK",
+      "end": 17,
+      "start": 9,
+      "roles": {
+        "VFORM": "BASE",
+        "LEX": "DRINK",
+        "AGENT": "#V1183687"
+      },
+      "indicator": "F"
+    },
+    "V1183687": {
+      "type": "PERSON",
+      "id": "V1183687",
+      "word": "I",
+      "end": 4,
+      "start": 2,
+      "roles": {
+        "PROFORM": "I",
+        "COREF": "USER",
+        "LEX": "I"
+      },
+      "indicator": "PRO"
+    },
+    "V1183897": {
+      "type": "SA_TELL",
+      "id": "V1183897",
+      "word": null,
+      "end": 17,
+      "start": 2,
+      "roles": {
+        "CONTENT": "#V1183730",
+        "LEX": "WANT"
+      },
+      "indicator": "SPEECHACT"
+    },
+    "root": "V1183897"
+  }
+]

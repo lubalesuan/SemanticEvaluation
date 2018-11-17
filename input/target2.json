@@ -1,0 +1,31 @@
+[
+  {
+    "V1183276": {
+      "roles": {
+        "EXPERIENCER": "#V1183262",
+        "TENSE": "PRES",
+        "LEX": "WANT"
+      },
+      "end": 8,
+      "indicator": "F",
+      "id": "V1183276",
+      "type": "WANT",
+      "word": "WANT",
+      "start": 2
+    },
+    "root": "V1183276",
+    "V1183262": {
+      "roles": {
+        "LEX": "I",
+        "COREF": "USER",
+        "PROFORM": "I"
+      },
+      "end": 4,
+      "indicator": "PRO",
+      "id": "V1183262",
+      "type": "PERSON",
+      "word": "I",
+      "start": 2
+    }
+  }
+]
